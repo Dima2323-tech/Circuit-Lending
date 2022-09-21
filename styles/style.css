@@ -110,7 +110,7 @@ li:hover{
 }
 .Project_Card_Left{
     float: left;
-    background-image: url("/img/Rectangle.png");
+    background-image: url("../img/Rectangle.png");
     width: 355px;
     height: 384px;
     color: white;
@@ -126,7 +126,7 @@ li:hover{
 }
 .Project_Card_Center{
     float: left;
-    background-image: url("/img/Rectangle.png");
+    background-image: url("../img/Rectangle.png");
     width: 355px;
     height: 384px;
     color: white;
@@ -142,7 +142,7 @@ li:hover{
 }
 .Project_Card_Right{
     float: left;
-    background-image: url("/img/Rectangle.png");
+    background-image: url("../img/Rectangle.png");
     width: 355px;
     height: 384px;
     color: white;
@@ -187,7 +187,7 @@ li:hover{
 }
 .Source_Card_Left{
     float: left;
-    background-image: url("/img/Rectangle.png");
+    background-image: url("../img/Rectangle.png");
     width: 355px;
     height: 384px;
     color: white;
@@ -203,7 +203,7 @@ li:hover{
 }
 .Source_Card_Center{
     float: left;
-    background-image: url("/img/Rectangle.png");
+    background-image: url("../img/Rectangle.png");
     width: 355px;
     height: 384px;
     color: white;
@@ -219,7 +219,7 @@ li:hover{
 }
 .Source_Card_Right{
     float: left;
-    background-image: url("/img/Rectangle.png");
+    background-image: url("../img/Rectangle.png");
     width: 355px;
     height: 384px;
     color: white;
@@ -264,7 +264,7 @@ li:hover{
 }
 .Contact_Left_Card{
     float: left;
-    background-image: url("/img/Mail.png");
+    background-image: url("../img/Mail.png");
     background-position: center;
     width: 330px;
     height: 500px;
@@ -283,7 +283,7 @@ li:hover{
 }
 .Contact_Right_Card{
     float: right;
-    background-image: url("/img/Telegram.png");
+    background-image: url("../img/Telegram.png");
     background-position: center;
     width: 330px;
     height: 500px;
