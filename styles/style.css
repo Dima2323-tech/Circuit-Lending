@@ -1,0 +1,317 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Inter';
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.Header_Container{
+    background-color: black;
+
+}
+.doty:after {
+    Content: ".";
+    Color: yellow;
+}
+.dotw:after {
+    Content: ".";
+    Color: white;
+}
+.Header_Content{
+    color: white;
+    padding: 15px 40px;
+}
+.Header_Logo{
+    float: left;
+}
+.Header_menu{
+    float: right;
+    padding-top:10px;
+    display: inline-block;
+}
+ul{
+    margin-right: 105px;
+}
+ul li {
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 25px;
+    float: left;
+
+    font-style: normal;
+    font-weight: 500;
+    transition: 0.5s;
+    padding-left: 35px;
+    transition: 0.5s;
+}
+li:hover{
+    color:yellow;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.Header_Socials{
+    display: inline-block;
+    margin-left: 25px;
+    float: left;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.Twitter_Img{
+    float: left;
+}
+.Gmail_Img{
+    float: right;
+    padding-left: 10px;
+}
+.Banner_Container{
+    background-color:#FAE800 ;
+}
+.Banner_Content{
+    max-width: 1100px;
+    text-align: center;
+}
+.Banner_Title{
+    font-size: 100px;
+    font-weight: 900;
+    padding-top: 120px;
+}
+.Banner_Text{
+    padding-bottom: 180px ;
+    font-weight: bold;
+    font-size: 16px;
+}
+.About_Content{
+    max-width: 700px;
+}
+.About_Title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    padding: 20px 0;
+}
+.About_Text_Content{
+    font-size: 14px;
+}
+.About_Text_Container{
+    padding-bottom: 32px;
+    max-width: 620px;
+}
+.Projects_Content{
+    max-width: 1150px;
+    text-align: center;
+}
+.Project_Tittle{
+    font-size: 50px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.Project_Card_Left{
+    float: left;
+    background-image: url("/img/Rectangle.png");
+    width: 355px;
+    height: 384px;
+    color: white;
+    font-size: 36px;
+    font-weight: 900;
+    border-radius: 15px;
+}
+.Project_Card_Left_Text{
+    width: 150px;
+    display: inline-block;
+    text-align: left;
+    padding-top: 5px;
+}
+.Project_Card_Center{
+    float: left;
+    background-image: url("/img/Rectangle.png");
+    width: 355px;
+    height: 384px;
+    color: white;
+    font-size: 36px;
+    font-weight: 900;
+    border-radius: 15px;
+}
+.Project_Card_Center_Text{
+    width: 150px;
+    display: inline-block;
+    text-align: left;
+    padding-top: 5px;
+}
+.Project_Card_Right{
+    float: left;
+    background-image: url("/img/Rectangle.png");
+    width: 355px;
+    height: 384px;
+    color: white;
+    font-size: 36px;
+    font-weight: 900;
+    border-radius: 15px;
+}
+.Project_Card_Right_Text{
+    width: 150px;
+    display: inline-block;
+    text-align: left;
+    padding-top: 5px;
+}
+.Project_Button{
+    float: right;
+    position: relative;
+    text-decoration:none;
+    right: 45%;
+    top: 15px;
+    margin-bottom:35px ;
+}
+.Project_Button a {
+    color: #F8C822;
+    text-decoration:none;
+    font-size: 18px;
+    font-weight: 900;
+    transition: 0.5s;
+}
+.Project_Button a:hover{
+    color: black;
+    transition: 0.5s;
+}
+.Source_Content{
+    max-width: 1150px;
+    text-align: center;
+    padding-top: 30px;
+}
+.Source_Tittle{
+    font-size: 50px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.Source_Card_Left{
+    float: left;
+    background-image: url("/img/Rectangle.png");
+    width: 355px;
+    height: 384px;
+    color: white;
+    font-size: 36px;
+    font-weight: 900;
+    border-radius: 15px;
+}
+.Source_Card_Left_Text{
+    width: 150px;
+    display: inline-block;
+    text-align: left;
+    padding-top: 5px;
+}
+.Source_Card_Center{
+    float: left;
+    background-image: url("/img/Rectangle.png");
+    width: 355px;
+    height: 384px;
+    color: white;
+    font-size: 36px;
+    font-weight: 900;
+    border-radius: 15px;
+}
+.Source_Card_Center_Text{
+    width: 150px;
+    display: inline-block;
+    text-align: left;
+    padding-top: 5px;
+}
+.Source_Card_Right{
+    float: left;
+    background-image: url("/img/Rectangle.png");
+    width: 355px;
+    height: 384px;
+    color: white;
+    font-size: 36px;
+    font-weight: 900;
+    border-radius: 15px;
+}
+.Source_Card_Right_Text{
+    width: 150px;
+    display: inline-block;
+    text-align: left;
+    padding-top: 5px;
+}
+.Source_Button{
+    float: right;
+    position: relative;
+    text-decoration:none;
+    right: 45%;
+    top: 15px;
+    margin-bottom:35px ;
+}
+.Source_Button a {
+    color: #F8C822;
+    text-decoration:none;
+    font-size: 18px;
+    font-weight: 900;
+    transition: 0.5s;
+}
+.Source_Button a:hover{
+    color: black;
+    transition: 0.5s;
+}
+.Contact_Container{
+    max-width: 750px;
+    text-align: center;
+}
+.Contact_Title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    padding: 20px 0;
+}
+.Contact_Left_Card{
+    float: left;
+    background-image: url("/img/Mail.png");
+    background-position: center;
+    width: 330px;
+    height: 500px;
+    color:white;
+    font-size: 24px;
+    font-weight: 600;
+}
+.Contact_Left_Card_Text {
+    position: relative;
+    top:75%;
+    text-align: center;
+}
+.fa-house{
+    position: relative;
+    top:75%;
+}
+.Contact_Right_Card{
+    float: right;
+    background-image: url("/img/Telegram.png");
+    background-position: center;
+    width: 330px;
+    height: 500px;
+    color:white;
+    font-size: 24px;
+    font-weight: 600;
+}
+.Contact_Right_Card_Text{
+    position: relative;
+    top:65%;
+    text-align: center;
+}
+.fa-paper-plane{
+    position: relative;
+    top:70%;
+}
+.Footer_Container{
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+.Footer_Logo{
+    float: left;
+    padding-left: 36px;
+}
+.Footer_Text{
+    float: right;
+    padding-right: 36px;
+}
+.Footer_menu{
+    padding-top:10px;
+}
